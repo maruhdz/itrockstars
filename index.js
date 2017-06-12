@@ -37,7 +37,7 @@ module.exports = function(app, admin, passport, io, torrents){
   });
   app.get('/search/place/:address', function(req, res){
     var url = 
-'https://maps.googleapis.com/maps/api/geocode/json?address='+encodeURI(req.params.address)+'&key=AIzaSyDaaNH8L8f4_Bv9HnRYVqyFzbK7ppVhVsY';
+'https://maps.googleapis.com/maps/api/geocode/json?address='+encodeURI(req.params.address)+'&key='+config.llave;
     request(url, function (err, data, body) {
       if (err){ throw err; }
       res.send(body);
