@@ -4,7 +4,10 @@ var util = require('util'),
     request = require('request'),
     querystring = require("querystring"),
     _ = require('lodash'),
-    moment = require('moment'); var cheerio = require('cheerio'); var config = require('../config.json'); 
+    moment = require('moment');
+var cheerio = require('cheerio');
+var config = require('./config.json');
+
 module.exports = function(app, admin, passport, io, torrents){
   var isLoggedIn = function(req){
 		return req.user !== undefined;
