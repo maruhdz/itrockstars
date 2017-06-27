@@ -1,0 +1,12 @@
+x = [1,2,3,4,5]
+print("Begin: ",x)
+x.append(6)
+print("Append 6: ",x)
+x.remove(4)
+print("Remove 4: ",x)
+x.extend([7,8,9])
+print("Extend [7,8,9]:",x)
+x.insert(0,0)
+print("Insert 0 at 0 index: ",x)
+x.pop()
+print("After pop: ",x)
