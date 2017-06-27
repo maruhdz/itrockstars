@@ -19,18 +19,6 @@
 
 
 
-##x,y,z,w,t,p='Tesla','Buick','Ferrari','Ford','Lamborghini','Maserati'
-##a,e,i,o,u=1,2,3,4,5
-##k=[x,y,z,w,t,p]
-##m=[a,e,i,o,u]
-##f=['a','e','i','o','u']
-##
-##for i in k:
-##    h=[]
-##    for j,b in enumerate(f):
-##        if b in i:
-##            h.append(m[j])
-##    print(i, h)
 
 
 a=1
