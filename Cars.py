@@ -41,7 +41,7 @@ consonants=[x,y,z,w,t,p]
 
 for i in consonants:
     letters=[]
-    for j,b in range(len(vowelname)):
-        if b in i:
+    for k,m in range(len(vowelname)):
+        if m in i:
             letters.append(vowels[j])
     print(i, letters)
